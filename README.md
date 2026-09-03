@@ -1,13 +1,16 @@
 # Zhenyu “Gary” Huang — Personal Website
 
-Source for [gnuhzy.github.io](https://gnuhzy.github.io/), a static portfolio focused on AI systems, LLM product engineering, performance work, and data systems.
+Source for [gnuhzy.github.io](https://gnuhzy.github.io/), a recruiter-focused personal website built with Next.js, TypeScript, Tailwind CSS, and Magic UI.
 
-The site uses semantic HTML, responsive CSS, and a small progressive JavaScript layer with no runtime dependencies.
+The layout is adapted from the MIT-licensed [Magic UI Portfolio template](https://github.com/magicuidesign/portfolio). Personal content is maintained in `src/data/resume.tsx`.
 
-## Local preview
+## Local development
 
-Open `dist/index.html` in a browser, or serve the directory with any static file server.
+```bash
+pnpm install
+pnpm dev
+```
 
 ## Deployment
 
-Every push to `main` deploys the contents of `dist/` through GitHub Pages.
+Every push to `main` builds a static export and deploys the `out/` directory through GitHub Pages.
