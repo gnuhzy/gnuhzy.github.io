@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Zhenyu “Gary” Huang is an AI systems and software engineer building reliable LLM products, agents, data systems, and high-performance kernels."
+    />
+    <meta name="theme-color" content="#07111f" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Zhenyu “Gary” Huang — AI Systems & Software Engineer" />
+    <meta
+      property="og:description"
+      content="AI systems, LLM products, performance engineering, and dependable software."
+    />
+    <meta property="og:url" content="https://gnuhzy.github.io/" />
+    <link rel="canonical" href="https://gnuhzy.github.io/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script>
+      document.documentElement.classList.add("js");
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("theme") ||
+          (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+    <title>Zhenyu “Gary” Huang — AI Systems & Software Engineer</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Zhenyu Huang",
+        "alternateName": "Gary Huang",
+        "url": "https://gnuhzy.github.io/",
+        "image": "https://avatars.githubusercontent.com/u/53935456?v=4",
+        "email": "mailto:garyhuang671@gmail.com",
+        "sameAs": ["https://github.com/gnuhzy"],
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "The Chinese University of Hong Kong, Shenzhen" },
+          { "@type": "CollegeOrUniversity", "name": "University of California, Berkeley" }
+        ],
+        "affiliation": { "@type": "CollegeOrUniversity", "name": "Carnegie Mellon University" },
+        "knowsAbout": [
+          "AI systems",
+          "LLM agents",
+          "Machine learning systems",
+          "Performance engineering",
+          "Data systems"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <div class="shell nav-shell">
+        <a class="wordmark" href="#top" aria-label="Gary Huang, back to top">
+          <span class="monogram" aria-hidden="true">GH</span>
+          <span class="wordmark-name">Gary Huang</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Page sections">
+          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" aria-label="Switch color theme">
+            <span aria-hidden="true">◐</span>
+            <span class="theme-label">Theme</span>
+          </button>
+          <a class="button button-small button-primary" href="mailto:garyhuang671@gmail.com?subject=Hello%20Gary">
+            Let’s talk
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Open to Summer 2027 opportunities</p>
+          <h1 id="hero-title">AI systems that hold up <span>beyond the demo.</span></h1>
+          <p class="hero-lede">
+            I’m Zhenyu “Gary” Huang, an AI systems and software engineer at Carnegie Mellon. I build across
+            LLM products, agents, data systems, and performance-critical kernels—with evaluation and
+            reliability designed in from the start.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://github.com/gnuhzy" target="_blank" rel="noreferrer">
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <p class="hero-meta">Pittsburgh, PA · CMU MISM-BIDA · AI Systems / ML Platforms / Software Engineering</p>
+        </div>
+
+        <aside class="profile-panel reveal" aria-label="Gary’s engineering focus">
+          <div class="profile-topline">
+            <img
+              class="avatar"
+              src="https://avatars.githubusercontent.com/u/53935456?v=4&amp;s=240"
+              alt="Zhenyu Gary Huang"
+              width="120"
+              height="120"
+            />
+            <div>
+              <p class="panel-kicker">Current focus</p>
+              <p class="panel-heading">From model behavior to measurable systems.</p>
+            </div>
+          </div>
+          <div class="focus-stack">
+            <div class="focus-row">
+              <span class="focus-index">01</span>
+              <div><strong>AI systems</strong><small>Inference kernels · scheduling · profiling</small></div>
+            </div>
+            <div class="focus-row">
+              <span class="focus-index">02</span>
+              <div><strong>LLM products</strong><small>Agents · RAG · evaluation · safeguards</small></div>
+            </div>
+            <div class="focus-row">
+              <span class="focus-index">03</span>
+              <div><strong>Software & data</strong><small>APIs · databases · end-to-end delivery</small></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="proof shell" aria-label="Selected outcomes">
+        <article class="proof-item reveal">
+          <strong>2.09×</strong>
+          <span>SpMV speedup across 58 real matrices</span>
+        </article>
+        <article class="proof-item reveal">
+          <strong>32</strong>
+          <span>files changed for two Zulip LLM features</span>
+        </article>
+        <article class="proof-item reveal">
+          <strong>+32%</strong>
+          <span>Narrative Planner offline evaluation score</span>
+        </article>
+        <article class="proof-item reveal">
+          <strong>12</strong>
+          <span>reviewed SQL workflows in PawTrack</span>
+        </article>
+      </section>
+
+      <section class="section shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">01 / Selected work</p>
+            <h2 id="work-title">Systems, products, and the evidence between them.</h2>
+          </div>
+          <p>
+            I like projects where a strong model is only the beginning: the hard part is making the entire
+            system fast, testable, permission-aware, and useful.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-feature reveal">
+            <div class="project-card-top">
+              <p class="project-type">Performance engineering · AI research automation</p>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>Ascend 910B3 SpMV + AutoResearch</h3>
+            <p>
+              Built adaptive FP32 CSR kernels and a guarded LLM optimization loop that profiles failures,
+              proposes mechanism-level changes, benchmarks against a fixed evaluator, and archives both wins
+              and regressions.
+            </p>
+            <dl class="project-result">
+              <div><dt>Latency</dt><dd>3,489.62 → 1,671.69 μs</dd></div>
+              <div><dt>Evaluation</dt><dd>58 LP/MPS matrices</dd></div>
+              <div><dt>Knowledge base</dt><dd>60+ version lessons</dd></div>
+            </dl>
+            <ul class="tag-list" aria-label="Technologies">
+              <li>Ascend C</li><li>C++</li><li>Python</li><li>msprof</li><li>CSR</li><li>LLM agents</li>
+            </ul>
+          </article>
+
+          <article class="project-card project-feature reveal">
+            <div class="project-card-top">
+              <p class="project-type">LLM product engineering · CMU</p>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>Zulip LLM Product Features</h3>
+            <p>
+              Independently delivered Unread Message Recap and Topic Title Improver inside a mature open-source
+              codebase, spanning backend APIs, asynchronous workers, caching, frontend state, authorization,
+              structured outputs, and adversarial tests.
+            </p>
+            <div class="project-links" aria-label="Zulip demos">
+              <a href="https://youtu.be/LWTSaEBxtBI" target="_blank" rel="noreferrer">Unread recap demo ↗</a>
+              <a href="https://youtu.be/cgr-1SM_GQ4" target="_blank" rel="noreferrer">Title improver demo ↗</a>
+            </div>
+            <ul class="tag-list" aria-label="Technologies">
+              <li>Python</li><li>Django</li><li>TypeScript</li><li>Workers</li><li>Pydantic</li><li>Zod</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top">
+              <p class="project-type">Multi-agent systems · GraphRAG</p>
+              <span class="project-year">2025–26</span>
+            </div>
+            <h3>Narrative Planner</h3>
+            <p>
+              Led a memory-augmented agent for memoir interviews. A planning layer balances coverage,
+              information gain, narrative depth, and emotional state while GraphRAG maintains long-term context.
+            </p>
+            <p class="inline-result"><strong>0.358 → 0.473</strong> documented offline simulation score</p>
+            <div class="project-links">
+              <a href="https://github.com/gnuhzy/Narrative-Planner" target="_blank" rel="noreferrer">View repository ↗</a>
+            </div>
+            <ul class="tag-list" aria-label="Technologies">
+              <li>Python</li><li>Neo4j</li><li>FAISS</li><li>GraphRAG</li><li>LLM-as-a-Judge</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card-top">
+              <p class="project-type">Full-stack data system · Text-to-SQL</p>
+              <span class="project-year">2026</span>
+            </div>
+            <h3>PawTrack</h3>
+            <p>
+              Expanded a relational database assignment into a working pet-adoption platform with operational
+              workflows, analytics, and a constrained natural-language query layer protected by read-only SQL
+              checks.
+            </p>
+            <p class="inline-result"><strong>10 entities</strong> · end-to-end integrity and workflow tests</p>
+            <div class="project-links">
+              <a href="https://github.com/gnuhzy/pet-database" target="_blank" rel="noreferrer">View repository ↗</a>
+            </div>
+            <ul class="tag-list" aria-label="Technologies">
+              <li>SQLite</li><li>FastAPI</li><li>Vue</li><li>Vite</li><li>Tool calling</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-split shell" id="experience" aria-labelledby="experience-title">
+        <div class="section-side reveal">
+          <p class="section-index">02 / Experience</p>
+          <h2 id="experience-title">Built at every layer.</h2>
+          <p>My path runs from financial data and knowledge graphs to LLM applications and accelerator kernels.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-meta"><span>2026</span><span>Shenzhen, China</span></div>
+            <h3>Shenzhen Research Institute of Big Data</h3>
+            <p class="role">Research & Engineering · AI Systems / HPC</p>
+            <p>
+              Developed adaptive SpMV kernels for Ascend 910B3 and an auditable LLM AutoResearch workflow for
+              optimization, profiling, adversarial evaluation, and version governance.
+            </p>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-meta"><span>2024</span><span>Shanghai, China</span></div>
+            <h3>Orient Securities</h3>
+            <p class="role">Quantitative Strategy Research Assistant</p>
+            <p>
+              Migrated and validated research pipelines for equity rotation, government-bond futures, and gold
+              arbitrage, handling time-series data, signals, batch APIs, and historical backtests.
+            </p>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-meta"><span>2023</span><span>Shenzhen, China</span></div>
+            <h3>Ping An Bank · Big Data Center</h3>
+            <p class="role">Data Engineering Intern</p>
+            <p>
+              Used Hive SQL and ETL workflows to support an enterprise knowledge graph, contributing to entity
+              modeling, data-quality validation, relationship mapping, and delivery reporting.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell" id="education" aria-labelledby="education-title">
+        <div class="section-heading compact reveal">
+          <div>
+            <p class="section-index">03 / Education</p>
+            <h2 id="education-title">Statistics foundation, systems direction.</h2>
+          </div>
+        </div>
+        <div class="education-grid">
+          <article class="education-card reveal">
+            <span class="education-mark">CMU</span>
+            <div>
+              <p class="education-date">2026–Present · Pittsburgh</p>
+              <h3>Carnegie Mellon University</h3>
+              <p>Master of Information Systems Management, Business Intelligence & Data Analytics</p>
+            </div>
+          </article>
+          <article class="education-card reveal">
+            <span class="education-mark">CUHK-SZ</span>
+            <div>
+              <p class="education-date">2022–2026 · Shenzhen</p>
+              <h3>The Chinese University of Hong Kong, Shenzhen</h3>
+              <p>B.S. in Statistics · GPA 3.43 / 4.00</p>
+            </div>
+          </article>
+          <article class="education-card reveal">
+            <span class="education-mark">Berkeley</span>
+            <div>
+              <p class="education-date">Fall 2024 · California</p>
+              <h3>University of California, Berkeley</h3>
+              <p>Exchange · Statistical learning, stochastic processes, and linear modeling</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell toolkit" aria-labelledby="toolkit-title">
+        <div class="section-side reveal">
+          <p class="section-index">04 / Toolkit</p>
+          <h2 id="toolkit-title">Comfortable crossing boundaries.</h2>
+        </div>
+        <div class="toolkit-grid">
+          <article class="toolkit-group reveal">
+            <h3>Systems</h3>
+            <p>C++ · Ascend C · Linux · CMake · profiling · benchmarking · Git worktrees</p>
+          </article>
+          <article class="toolkit-group reveal">
+            <h3>AI & ML</h3>
+            <p>LLM agents · GraphRAG · tool calling · structured outputs · evaluation · scikit-learn</p>
+          </article>
+          <article class="toolkit-group reveal">
+            <h3>Product</h3>
+            <p>Python · Django · FastAPI · TypeScript · Vue · REST APIs · workers · testing</p>
+          </article>
+          <article class="toolkit-group reveal">
+            <h3>Data</h3>
+            <p>SQL · Hive · SQLite · Neo4j · pandas · ETL · schema design · time series</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact shell reveal" id="contact" aria-labelledby="contact-title">
+        <p class="section-index">05 / Contact</p>
+        <h2 id="contact-title">Let’s build something that survives contact with reality.</h2>
+        <p>
+          I’m looking for Summer 2027 opportunities in AI systems, ML platforms, and software engineering.
+          I’m especially drawn to teams working across models, infrastructure, and real product constraints.
+        </p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:garyhuang671@gmail.com?subject=Opportunity%20for%20Gary%20Huang">
+            garyhuang671@gmail.com
+          </a>
+          <a class="button button-quiet" href="https://github.com/gnuhzy" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>© <span id="current-year">2026</span> Zhenyu “Gary” Huang</p>
+        <p>Built with care, plain HTML, CSS, and JavaScript.</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="assets/script.js" defer></script>
+  </body>
+</html>
