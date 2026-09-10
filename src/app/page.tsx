@@ -37,7 +37,7 @@ export default function Page() {
               className="order-1 md:order-2"
             >
               <Avatar className="size-24 rounded-full border ring-4 ring-muted md:size-28">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-cover scale-[1.6] origin-[50%_30%]" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>

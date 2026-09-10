@@ -12,9 +12,9 @@ export const DATA = {
     "Software Engineer focused on AI systems, ML infrastructure, and reliable LLM products. MISM-BIDA @ Carnegie Mellon · Graduating Dec 2027 · Seeking Summer 2027 internships.",
   summary:
     "I build performance-sensitive AI systems and production-style LLM features, from **FP32 CSR SpMV kernels on Ascend 910B3** to multi-agent retrieval and evaluation workflows. My work sits at the intersection of systems, machine learning, and data-intensive software, with an emphasis on measurable performance and reliable behavior.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/53935456?v=4",
+  avatarUrl: "/gary-huang.jpg",
   resumeUrl: "",
-  linkedinUrl: "",
+  linkedinUrl: "https://www.linkedin.com/in/zhenyu-huang-0a06a7404/",
   highlights: [
     {
       value: "2.09×",
@@ -54,6 +54,12 @@ export const DATA = {
   contact: {
     email: "garyhuang671@gmail.com",
     social: {
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/zhenyu-huang-0a06a7404/",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/gnuhzy",
@@ -197,7 +203,7 @@ export const DATA = {
       href: "https://www.cmu.edu/",
       initials: "CMU",
       degree: "MISM — Business Intelligence & Data Analytics · Expected Dec 2027",
-      logoUrl: "",
+      logoUrl: "/cmu-logo.png",
       start: "Aug 2026",
       end: "Dec 2027",
     },
