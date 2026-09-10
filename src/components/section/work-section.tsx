@@ -35,7 +35,7 @@ function LogoImage({
     <img
       src={src}
       alt={alt}
-      className="size-10 flex-none rounded-full border object-contain p-1 ring-2 ring-border"
+      className="h-14 w-24 flex-none rounded-md border bg-white object-contain p-1"
       onError={() => setImageError(true)}
     />
   );
@@ -84,12 +84,12 @@ export default function WorkSection() {
                   </div>
                 </div>
               </div>
-              <time className="pl-13 text-xs tabular-nums text-muted-foreground sm:pl-0">
+              <time className="pl-27 text-xs tabular-nums text-muted-foreground sm:pl-0">
                 {work.start} – {work.end}
               </time>
             </div>
           </AccordionTrigger>
-          <AccordionContent className="ml-13 p-0 text-sm leading-relaxed text-muted-foreground">
+          <AccordionContent className="p-0 text-sm leading-relaxed text-muted-foreground sm:ml-27">
             <ul className="list-disc space-y-2 pl-4">
               {work.description.map((item) => (
                 <li key={item}>{item}</li>

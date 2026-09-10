@@ -23,7 +23,7 @@ export default function Page() {
                   id="page-title"
                   className="text-4xl font-semibold tracking-tighter sm:text-5xl"
                 >
-                  Hi, I&apos;m {DATA.preferredName}.
+                  {DATA.name}
                 </h1>
               </BlurFade>
               <BlurFade delay={BLUR_FADE_DELAY * 2}>
@@ -140,17 +140,11 @@ export default function Page() {
                   className="group flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center"
                 >
                   <div className="flex min-w-0 flex-1 items-center gap-x-3">
-                    {education.logoUrl ? (
-                      <img
-                        src={education.logoUrl}
-                        alt=""
-                        className="size-10 flex-none rounded-full border object-contain p-1 ring-2 ring-border"
-                      />
-                    ) : (
-                      <span className="flex size-10 flex-none items-center justify-center rounded-full border bg-muted text-[10px] font-semibold ring-2 ring-border">
-                        {education.initials}
-                      </span>
-                    )}
+                    <img
+                      src={education.logoUrl}
+                      alt=""
+                      className="h-14 w-24 flex-none rounded-md border bg-white object-contain p-1"
+                    />
                     <div className="flex min-w-0 flex-1 flex-col gap-1">
                       <div className="flex items-center gap-2 font-semibold leading-tight">
                         {education.school}
@@ -164,7 +158,7 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <time className="pl-13 text-xs tabular-nums text-muted-foreground sm:pl-0">
+                  <time className="pl-27 text-xs tabular-nums text-muted-foreground sm:pl-0">
                     {education.start} – {education.end}
                   </time>
                 </Link>

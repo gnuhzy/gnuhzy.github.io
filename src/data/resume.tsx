@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { BriefcaseBusiness, Code2, HomeIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Zhenyu “Gary” Huang",
+  name: "Zhenyu(Gary) Huang",
   preferredName: "Gary",
   initials: "GH",
   url: "https://gnuhzy.github.io",
@@ -11,25 +11,25 @@ export const DATA = {
   description:
     "Software Engineer focused on AI systems, ML infrastructure, and reliable LLM products. MISM-BIDA @ Carnegie Mellon · Graduating Dec 2027 · Seeking Summer 2027 internships.",
   summary:
-    "I build performance-sensitive AI systems and production-style LLM features, from **FP32 CSR SpMV kernels on Ascend 910B3** to multi-agent retrieval and evaluation workflows. My work sits at the intersection of systems, machine learning, and data-intensive software, with an emphasis on measurable performance and reliable behavior.",
+    "I build software that turns AI capabilities into reliable workflows. My work spans **agent-driven performance optimization**, **LLM features in existing applications**, and **data-backed agent systems**. I connect implementation with automated testing, evaluation, and profiling so that improvements are measurable and model outputs stay within clear permission boundaries.",
   avatarUrl: "/gary-huang.jpg",
   resumeUrl: "",
   linkedinUrl: "https://www.linkedin.com/in/zhenyu-huang-0a06a7404/",
   highlights: [
     {
       value: "2.09×",
-      label: "SpMV speedup",
-      detail: "Across 58 real LP/MPS matrices",
+      label: "Agent-driven kernel optimization",
+      detail: "21 promoted versions, 58 failed or non-promoted attempts, and 78 recorded lessons. Achieved 2.09× geometric-mean speedup across 58 matrices on the repeated compute path, excluding host preparation.",
     },
     {
       value: "+32%",
-      label: "Evaluation improvement",
-      detail: "Multi-agent GraphRAG planner",
+      label: "Better interview planning",
+      detail: "A multi-agent GraphRAG planner improved the offline simulation score from 0.358 to 0.473, using simulated interviewees and automated evaluation.",
     },
     {
-      value: "32",
-      label: "Files changed",
-      detail: "Two end-to-end Zulip LLM features",
+      value: "User-controlled AI",
+      label: "Reliable LLM integration",
+      detail: "Zulip recaps with validated message citations and topic-title suggestions that require user approval. Background workers, permission checks, and caching keep inference outside message sending.",
     },
   ],
   skills: [
@@ -77,25 +77,26 @@ export const DATA = {
   work: [
     {
       company: "Shenzhen Research Institute of Big Data",
-      href: "",
+      href: "https://www.sribd.cn/",
       initials: "SR",
       location: "Shenzhen, China",
       title: "AI Systems Research & Engineering Intern",
-      logoUrl: "",
+      logoUrl: "/logos/sribd.png",
       start: "May 2026",
       end: "Aug 2026",
       description: [
-        "Built an adaptive FP32 CSR SpMV operator for Ascend 910B3, reducing geometric-mean latency across 58 real matrices from 3,489.62 μs to 1,671.69 μs (2.09×).",
-        "Built an LLM-driven AutoResearch loop for hypothesis generation, code modification, benchmarking, profiling, adversarial testing, and version governance.",
+        "Built an agent workflow for kernel optimization, connecting hypotheses, code changes, correctness checks, benchmarking, profiling, and knowledge feedback. Tracked 21 promoted versions, 58 failed or non-promoted attempts, and 78 version lessons.",
+        "Reduced geometric-mean kernel runtime from 3,489.62 μs to 1,671.69 μs (2.09×) on a 58-matrix benchmark of the repeated compute path, excluding host preparation; 49 cases improved, eight regressed, and one was neutral.",
+        "Generalized the process into OpFlow with nine role-specific permission sets, isolated worktrees, frozen evaluation gates, and a deterministic judge. An independent accuracy runner checked five representative versions across 58 matrices and 15 repeatability stress scenarios.",
       ],
     },
     {
       company: "Orient Securities",
-      href: "",
+      href: "https://www.dfzq.com.cn/",
       initials: "OS",
       location: "Shanghai, China",
       title: "Quantitative Strategy Research Assistant",
-      logoUrl: "",
+      logoUrl: "/logos/orient-securities.png",
       start: "Jul 2024",
       end: "Aug 2024",
       description: [
@@ -105,11 +106,11 @@ export const DATA = {
     },
     {
       company: "Ping An Bank",
-      href: "",
+      href: "https://bank.pingan.com/",
       initials: "PA",
       location: "Shenzhen, China",
       title: "Data Engineering Intern",
-      logoUrl: "",
+      logoUrl: "/logos/ping-an-bank.svg",
       start: "Jul 2023",
       end: "Aug 2023",
       description: [
@@ -124,7 +125,7 @@ export const DATA = {
       href: "https://youtu.be/LWTSaEBxtBI",
       dates: "Aug 2026 – Sep 2026",
       description:
-        "Built two end-to-end LLM features in the mature Zulip codebase, modifying **32 files** across APIs, workers, event schemas, caching, frontend interactions, and tests. Added long-context summarization, validated citations, asynchronous jobs, authorization checks, quotas, and prompt-injection defenses.",
+        "Independently implemented **Unread Message Recap** and **Topic Title Improver** in Zulip as a CMU course project. Built batched and hierarchical summarization, server-validated citations, background workers, and content-hash caching. Rechecked permissions in APIs and workers, handled duplicate jobs and stale results, and required user approval before renaming topics. Added Python and TypeScript tests for failure paths, access control, and asynchronous behavior.",
       technologies: [
         "Python",
         "Django",
@@ -211,8 +212,8 @@ export const DATA = {
       school: "The Chinese University of Hong Kong, Shenzhen",
       href: "https://www.cuhk.edu.cn/en",
       initials: "CUHK",
-      degree: "B.S. in Statistics · GPA 3.43/4.00",
-      logoUrl: "",
+      degree: "B.S. in Statistics",
+      logoUrl: "/logos/cuhk-shenzhen.png",
       start: "Sep 2022",
       end: "Jun 2026",
     },
@@ -221,7 +222,7 @@ export const DATA = {
       href: "https://www.berkeley.edu/",
       initials: "UCB",
       degree: "Berkeley Global Access Program · Exchange Student",
-      logoUrl: "",
+      logoUrl: "/logos/berkeley.svg",
       start: "Aug 2024",
       end: "Dec 2024",
     },
